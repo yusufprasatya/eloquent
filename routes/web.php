@@ -21,6 +21,7 @@ Route::get('/mahasiswa/gabung-2',       [MahasiswaController::class, 'gabung2'])
 Route::get('/mahasiswa/gabung-join-1',  [MahasiswaController::class, 'gabungJoin1']);
 Route::get('/mahasiswa/gabung-join-2',  [MahasiswaController::class, 'gabungJoin2']);
 Route::get('/mahasiswa/gabung-join-3',  [MahasiswaController::class, 'gabungJoin3']);
+Route::get('/mahasiswa/gabung-join-3',  [MahasiswaController::class, 'gabungJoin3']);
 
 Route::prefix('/mahasiswa')->group(function () {
     Route::get('/find',              [MahasiswaController::class, 'find']);
